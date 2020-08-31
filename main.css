@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&family=Roboto:ital@1&display=swap');@import url('https://fonts.googleapis.com/css2?family=Revalia&family=Roboto&display=swap');
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.menu__logo{
+    font-family: 'Revalia', cursive;
+    color: #34547A;
+    font-size: calc(34px + (24 - 18) * (100vw - 400px) / (1200 - 400));
+}
+.menu__items{
+    align-self: center;
+    display: flex;
+    align-items: start;
+}
+.menu__items>.items__link:not(:last-child){
+    margin-right: 10px;
+}
+.menu__items>.items__link{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #000;
+}
+.active{
+    color: #34547A!important;
+}
+
+.block__img>img{
+    width: 500px;
+    height: 300px;
+}
+.block__img{
+    margin-right: 150px;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+}
+.block__text{
+    align-self: center;
+    
+}
+.block__text > *{
+    max-width: 330px;
+    margin-bottom: 50px;
+}
+
+.text__btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #34547A;
+    padding: 15px;
+}
